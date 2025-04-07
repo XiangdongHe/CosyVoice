@@ -1,5 +1,6 @@
 FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime
 ENV DEBIAN_FRONTEND=noninteractive
+ENV WAV_DIR=/data/model/zero_shot_prompt.wav
 
 WORKDIR /opt/CosyVoice
 
